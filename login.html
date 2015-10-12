@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="de">
+    <meta charset="utf-8">
+    <title>E-Banking der Zuger Kantonalbank: Login</title>
+    <!-- Start: Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"-->
+    <!-- End: Bootstrap -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="zgkb-login-wrapper-container">
+    <div class="container-fluid">
+        <div class="center-block zgkb-wrapper-login-form">
+            <figure class="center-block zgkb-wrapper-logo">
+                <a href="login.html" title="E-Banking der Zuger Kantonalbank: Login">
+                    <img class="center-block" src="assets/img/zugerkb-logo.png" title="Zuger Kantonalbank Logo" alt="Zuger Kantonalbank Logo" width="320">
+                </a>
+            </figure>
+            <!--p class="text-center zgbk-paragraph">E-Banking der Zuger Kantonalbank</p-->
+            <form action="/" method="post">
+                <div class="zgkb-login-form form-group text-center">
+                    <div class="zgkb-form-control-wrapper first">
+                        <label for="zgkb-login-username" class="form-label">Username</label>
+                        <input type="text" name="zgkb-username" id="zgkb-login-username" class="form-control" placeholder="Vertragsnummer" />
+                        <span class="glyphicon glyphicon-stop zgkb-login-stop"></span>
+                    </div>
+                    <div class="zgkb-form-control-wrapper">
+                        <label for="zgkb-login-password" class="form-label">Password</label>
+                        <input type="password" name="zgkb-password" id="zgkb-login-password" class="form-control" placeholder="Passwort" />
+                        <span class="glyphicon glyphicon-stop zgkb-login-stop"></span>
+                    </div>
+                    <div class="zgkb-form-control-wrapper">
+                        <button class="btn btn-zgkb-login transition-all"><span class="glyphicon glyphicon-log-in"></span></button>
+                    </div>
+                </div>
+            </form>
+            <div class="zgkb-info-box">
+                <div class="zgkb-login-carousel center-block">
+                    <div class="zgkb-login-info pull-left">
+                        <span class="glyphicon glyphicon-pushpin zgkb-login-pushpin"></span>
+                    </div>
+                    <div id="zgkb-login-carousel" class="zgkb-carousel-box pull-right carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <ol class="carousel-indicators">
+                                <li data-target="#zgkb-login-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#zgkb-login-carousel" data-slide-to="1"></li>
+                                <li data-target="#zgkb-login-carousel" data-slide-to="2"></li>
+                            </ol>
+                            <div class="item active">
+                                <p class="text-center zgkb-paragraph">Per 1. Oktober 2015: Der Rabatt auf Wertschriftentransaktionen via E-Banking beträgt neu 50% (bisher 60%).</p>
+                            </div>
+                            <div class="item">
+                                <p class="text-center zgkb-paragraph">Per 1. November 2015: Für das Depot fallen pro Jahr Minimumgebühren von CHF 100. --  an (bisher 50.-- pro Jahr).</p>
+                            </div>
+                            <div class="item">
+                                <p class="text-center zgkb-paragraph"><a href="#">Online Support - TeamViewer starten</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zgkb-langauge-switcher">
+            <ul>
+                <li><a href="/de" class="active">deutsch</a></li>
+                <li><a href="/en" class="">english</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+</body>
+</html>
