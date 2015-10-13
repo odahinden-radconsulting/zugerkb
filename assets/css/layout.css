@@ -69,13 +69,21 @@ a:hover {
 .btn-zgkb-login {
     background-color: #3896d4;
     color: #fff;
-    padding: 5px 17px;
+    padding: 5px 17px 4px 17px;
     border-radius: 12px;
 }
 
 .btn-zgkb-login:hover {
     background-color: #fff;
     color: #3896d4;
+}
+
+.btn-zgkb-login.remove {
+    background-color: #FF0000;
+}
+
+.btn-zgkb-login.ok{
+    background-color: #03A678;
 }
 
 .zgbk-paragraph {
@@ -152,4 +160,19 @@ a:hover {
     font-weight: bold;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.spin {
+    -animation: spin .7s infinite linear;
+    -webkit-animation: spin2 .7s infinite linear;
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
 }
